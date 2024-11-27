@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Task Submit</title>
+        <link rel="stylesheet" href="task_submit.css">
+    </head>
+    <script>
+        function message(){
+            alert("Submitted Succesfully");
+        }
+    </script>
+    <body>
+        
+        <div class="three">
+            <nav>
+                <a href="profile.html">Profile</a>
+                <a href="add_attendance.html">Add Attendance</a>
+                <a href="my_attendance.html">My Attendance</a>
+                <a href="task_finder.html">Task Finder</a>
+                <a href="task_submit.html">Task Submission</a>
+                <a href="logout.html">Logout</a>
+             </nav>
+          
+        <div class="two">
+            <div class="one">TASK SUBMISSION</div>
+            <form >
+                <label for="name">NAME : </label>
+                    <input type="text" placeholder="Your answer" required="true"><br><br>
+               
+                <label for="course">COURSE :</label>
+                    <input type="text" placeholder="Your answer" required="true"><br><br>
+                
+                <label for="college">COLLEGE :</label>
+                   <input type="text" placeholder="Your answer" required="true"><br><br>
+               
+                <label for="deployed link">ENTER YOUR TASK DEPLOYED LINK :</label>
+                    <input type="text" placeholder="Your answer" required="true"><br><br>
+
+                <label for="myfile">SELECT A FILE :</label>
+                    <input type="file" required="true"><br><br>    
+                
+                <label for="date">DATE :</label>
+                    <input type="date" required="true"><br><br><br>
+                
+                <input type="button" id="button" value="Submit" onclick="message()">
+           </form>
+        </div>
+        </div>
+    </body>
+</html>
